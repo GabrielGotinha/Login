@@ -6,8 +6,8 @@ import { AuthProvider } from "./contexts/auth";
 const App = () => {
     return (
         <AuthProvider>
-        <RoutesApp/>
-        <GlobalStyle />
+            <RoutesApp/>
+            <GlobalStyle />
         </AuthProvider>
     )
 }

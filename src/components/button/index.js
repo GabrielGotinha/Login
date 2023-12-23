@@ -1,11 +1,12 @@
 import React from "react";
+import * as C from "./styles";
 
-const Button = () => {
-    return (
-        <div>
-            Button
-        </div>
-    )
-}
+const Button = ({ Text, onClick, Type = "button" }) => {
+  return (
+    <C.Button type={Type} onClick={onClick}>
+      {Text}
+    </C.Button>
+  );
+};
 
-export default Button
+export default Button;
